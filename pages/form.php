@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../libs/bootstrap-5.2.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/global.css">
     <script src="../libs/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
     <title>Teste Cooper | Formulário</title>
 </head>

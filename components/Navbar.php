@@ -1,27 +1,33 @@
-<nav class="navbar navbar-dark bg-dark">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid px-5">
+        <a class="navbar-brand" href="#">
+            <img src="../images/front-end-logo.png" alt="front-logo" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="/pages/galery.php">
+                        <i class="bi bi-images"></i>
+                        Galeria
+                    </a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="/pages/form.php">
+                        <i class="bi bi-card-text"></i>
+                        Formulário
+                    </a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="btn btn-primary" href="/">
+                        <i class="bi bi-house-fill"></i>
+                        Home
+                    </a>
+                </li>
 
-        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Cooper Teste</h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pages/form.php">Formulário</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pages/galery.php">Galeria de imagens</a>
-                    </li>
-                </ul>
-            </div>
+            </ul>
         </div>
     </div>
 </nav>
