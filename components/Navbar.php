@@ -18,7 +18,7 @@
                         <a class="nav-link" href="/pages/form.php">Formulário</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galeria de imagens</a>
+                        <a class="nav-link" href="/pages/galery.php">Galeria de imagens</a>
                     </li>
                 </ul>
             </div>
