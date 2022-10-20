@@ -2,7 +2,6 @@ input[type="file"] {
     display: none;
 }
 
-
 #avatar-label {
     background-image: url(../images/avatar.png);
     border-radius: 100%;
@@ -26,7 +25,6 @@ input[type="file"] {
     opacity: 0;
     transition: all .2s linear;
 }
-
 
 #avatar-label:hover::after{
     opacity: 1;
