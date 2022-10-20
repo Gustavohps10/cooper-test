@@ -62,6 +62,7 @@
         </div>
     </main>
 
+    <?php include_once "../components/Footer.php"?>
 </body>
 
 </html>
