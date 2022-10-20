@@ -38,7 +38,7 @@
 
     <main>
         <div class="container">
-            <div class="card position-relative top-0 start-50 translate-middle-x my-3" style="width: 30rem">
+            <div class="card position-relative top-0 start-50 translate-middle-x my-3" style="width: 30rem; max-width: 95vw">
                 <div class="card-body">
                     <form id="user-form" class="row g-3" enctype="multipart/form-data" novalidate>
                         <!--Avatar-->
@@ -53,7 +53,7 @@
                         <!--Name-->
                         <div class="col-md-6">
                             <label for="name" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="name" name="name">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Nome">
 
                             <div class="valid-feedback">
                                 Nome válido.
@@ -66,7 +66,7 @@
                         <!--Years-->
                         <div class="col-md-6">
                             <label for="years" class="form-label">Idade</label>
-                            <input type="text" class="form-control" id="years" name="years" pattern="[0-9]+">
+                            <input type="text" class="form-control" id="years" name="years" placeholder="Idade">
 
                             <div class="valid-feedback">
                                 Idade válida
