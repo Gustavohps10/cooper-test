@@ -146,6 +146,7 @@
     </div>
 
     <script src="../js/validation.js"></script>
+    <script src="../js/photo-preview.js"></script>
 </body>
 
 </html>
