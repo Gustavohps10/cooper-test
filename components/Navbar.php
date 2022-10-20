@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid px-5">
+    <div class="container-fluid ">
         <a class="navbar-brand" href="/">
             <img src="../images/front-end-logo.png" alt="front-logo" height="30">
         </a>
