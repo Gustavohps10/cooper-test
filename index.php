@@ -31,10 +31,12 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 d-flex justify-content-center p-4">
-                    <img src="/images/home-image.jpg" class="w-100" alt="home-image">
+                    <img src="/images/home-image.png" class="w-100" alt="home-image">
                 </div>
             </div>
         </div>
+
+        <img src="images/wave.svg" class="w-100" style="margin-top: -50px;" alt="wave">
     </main>
 
     <?php include_once "components/Footer.php" ?>
